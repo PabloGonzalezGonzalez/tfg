@@ -1,0 +1,36 @@
+{
+  "name": "iaas-api",
+  "version": "1.0.0",
+  "description": "API RESTful del TFG",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server/server.js --ignore 'server/*.json'",
+    "lint": "eslint ./server/server.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloGonzalezGonzalez/tfg.git"
+  },
+  "author": "Pablo Gonzalez Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloGonzalezGonzalez/tfg/issues"
+  },
+  "homepage": "https://github.com/PabloGonzalezGonzalez/tfg#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jinja-js": "^0.1.8",
+    "node-ansible": "^0.5.5",
+    "nodemon": "^2.0.7",
+    "python-shell": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.2.1"
+  }
+}
