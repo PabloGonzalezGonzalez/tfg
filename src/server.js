@@ -12,8 +12,11 @@ app.use(express.json());
 /* FILES */
 const varsFile = Path.join(__dirname, 'files', 'vars.json');
 const scriptFile = Path.join(__dirname, 'scripts', 'parse.py');
+
 const createMVPlaybook = Path.join(__dirname, 'ansible', 'create_mv');
 const removeMVPlaybook = Path.join(__dirname, 'ansible', 'remove_mv');
+const getInventoryPlaybook = Path.join(__dirname, 'ansible', 'get_inventory');
+
 const playbookLogSuccess = Path.join(
     __dirname,
     '..',
@@ -26,7 +29,6 @@ const playbookLogError = Path.join(
     'logs',
     'ansible_error'
 );
-// const getInventoryPlaybook = Path.join(__dirname, '..', 'ansible', 'get_inventory');
 
 /* FUNCTIONS */
 const createVarsFile = (file, vars) => {
@@ -74,15 +76,7 @@ const execPlaybook = (playbookFile) => {
             );
         },
         (error) => {
-            console.log(`Failed playbook execution with code: ${error}\n`);
-
             // Failed log archive
-            const playbookLogError = Path.join(
-                __dirname,
-                '..',
-                'logs',
-                'ansible_error'
-            );
             const date = new Date();
 
             fs.appendFile(playbookLogError, `${date}\n${error}`, (errorFile) => {
@@ -95,7 +89,7 @@ const execPlaybook = (playbookFile) => {
 };
 
 /* ENDPOINTS */
-app.post('/creation', (req, res) => {
+app.post('/createVM', (req, res) => {
     console.log(`Request body: ${JSON.stringify(req.body)}`);
 
     createVarsFile(varsFile, JSON.stringify(req.body));
@@ -104,7 +98,7 @@ app.post('/creation', (req, res) => {
     res.send('POST /creation');
 })
 
-app.post('/removal', (req, res) => {
+app.post('/deleteVM', (req, res) => {
     console.log(`Request body: ${JSON.stringify(req.body)}`);
 
     createVarsFile(varsFile, JSON.stringify(req.body));
@@ -113,7 +107,14 @@ app.post('/removal', (req, res) => {
     res.send('POST /removal');
 });
 
-// app.get("/test", (req, res) => {});
+app.get("/test", (req, res) => {
+    console.log(`Request body: ${JSON.stringify(req.body)}`);
+
+    createVarsFile(varsFile, JSON.stringify(req.body));
+    execPlaybook(getInventoryPlaybook);
+
+    res.send('POST /removal');
+});
 
 /* API */
 // const port = process.env.NODE_ENV === "" ? process.env.PORT || 80 : 3000;

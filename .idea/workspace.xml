@@ -1,68 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3675363f-4a63-490c-8b54-ac229fb96153" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/create_mv.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/get_inventory.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/remove_mv.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_login/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_login/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_login/defaults/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_login/handlers/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_login/meta/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_login/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_login/tests/inventory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_login/tests/test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_login/vars/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_logout/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_logout/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_logout/defaults/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_logout/handlers/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_logout/meta/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_logout/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_logout/tests/inventory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_logout/tests/test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_logout/vars/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_create/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_create/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_create/defaults/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_create/handlers/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_create/meta/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_create/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_create/tests/inventory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_create/tests/test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_create/vars/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_remove/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_remove/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_remove/defaults/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_remove/handlers/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_remove/meta/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_remove/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_remove/tests/inventory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_remove/tests/test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_remove/vars/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_update/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_update/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_update/defaults/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_update/handlers/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_update/meta/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_update/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_update/tests/inventory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_update/tests/test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_update/vars/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/pabloTFG.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/vars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/parse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tfg.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/get_inventory/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/get_inventory/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/get_inventory/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/get_inventory/handlers/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/get_inventory/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/get_inventory/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/get_inventory/tests/inventory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/get_inventory/tests/test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/get_inventory/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ansible/get_inventory.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ansible/get_inventory.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/pabloTFG.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/pabloTFG.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/vars.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/vars.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +34,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1tfFcb2qNht4lmFA08JZTplc6W1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -101,7 +65,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -130,6 +94,7 @@
       <workItem from="1623418385115" duration="2416000" />
       <workItem from="1623421004332" duration="169000" />
       <workItem from="1623597722961" duration="1539000" />
+      <workItem from="1623603609236" duration="4208000" />
     </task>
     <servers />
   </component>
