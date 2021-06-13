@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3675363f-4a63-490c-8b54-ac229fb96153" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/create_mv.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/get_inventory.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/remove_mv.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_login/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_login/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_login/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_login/handlers/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_login/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_login/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_login/tests/inventory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_login/tests/test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_login/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_logout/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_logout/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_logout/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_logout/handlers/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_logout/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_logout/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_logout/tests/inventory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_logout/tests/test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/iaas_logout/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_create/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_create/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_create/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_create/handlers/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_create/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_create/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_create/tests/inventory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_create/tests/test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_create/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_remove/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_remove/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_remove/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_remove/handlers/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_remove/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_remove/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_remove/tests/inventory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_remove/tests/test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_remove/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_update/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_update/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_update/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_update/handlers/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_update/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_update/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_update/tests/inventory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_update/tests/test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ansible/roles/vm_update/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/pabloTFG.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/vars.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/parse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tfg.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tfFcb2qNht4lmFA08JZTplc6W1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.19.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="10.17.60" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ansible" />
+      <recent name="$PROJECT_DIR$/src/ansible/" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3675363f-4a63-490c-8b54-ac229fb96153" name="Default Changelist" comment="" />
+      <created>1623152316703</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623152316703</updated>
+      <workItem from="1623152318003" duration="446000" />
+      <workItem from="1623152773090" duration="2882000" />
+      <workItem from="1623241446544" duration="14210000" />
+      <workItem from="1623339497383" duration="660000" />
+      <workItem from="1623340178126" duration="507000" />
+      <workItem from="1623340698809" duration="802000" />
+      <workItem from="1623342228001" duration="663000" />
+      <workItem from="1623343075938" duration="1264000" />
+      <workItem from="1623410072849" duration="342000" />
+      <workItem from="1623418385115" duration="2416000" />
+      <workItem from="1623421004332" duration="169000" />
+      <workItem from="1623597722961" duration="1539000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

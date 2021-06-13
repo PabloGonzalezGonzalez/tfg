@@ -1,11 +1,12 @@
 {
   "name": "iaas-api",
   "version": "1.0.0",
-  "description": "API RESTful del TFG",
-  "main": "server.js",
+  "description": "API REST del TFG",
+  "main": "/src/server.js",
+  "type": "commonjs",
   "scripts": {
-    "start": "nodemon server/server.js --ignore 'server/*.json'",
-    "lint": "eslint ./server/server.js --fix"
+    "start": "node src/server.js --ignore 'src/server.js'",
+    "lint": "eslint ./src/server.js --fix"
   },
   "repository": {
     "type": "git",
@@ -22,9 +23,9 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "jinja-js": "^0.1.8",
-    "node-ansible": "^0.5.5",
     "nodemon": "^2.0.7",
-    "python-shell": "^2.0.3"
+    "python-shell": "^2.0.3",
+    "node-ansible": "^0.5.5"
   },
   "devDependencies": {
     "eslint": "^7.25.0",
