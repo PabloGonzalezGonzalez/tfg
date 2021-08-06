@@ -23,9 +23,9 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "jinja-js": "^0.1.8",
+    "node-ansible": "^0.5.5",
     "nodemon": "^2.0.7",
-    "python-shell": "^2.0.3",
-    "node-ansible": "^0.5.5"
+    "python-shell": "^2.0.3"
   },
   "devDependencies": {
     "eslint": "^7.25.0",

@@ -5,7 +5,7 @@
   ovirt_vm:
     auth: "{{ ovirt_auth }}"
     cluster: Cluster-Rojo
-    name: "{{ item }}"
+    name: "{{ prefix }}-{{ item }}"
     cpu_cores: 1
     cpu_sockets: 1
     memory: 1GiB

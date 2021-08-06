@@ -16,6 +16,7 @@ const scriptFile = Path.join(__dirname, 'scripts', 'parse.py');
 const createMVPlaybook = Path.join(__dirname, 'ansible', 'create_mv');
 const removeMVPlaybook = Path.join(__dirname, 'ansible', 'remove_mv');
 const getInventoryPlaybook = Path.join(__dirname, 'ansible', 'get_inventory');
+const resetPasswordPlaybook = Path.join(__dirname, 'ansible', 'reset_password');
 
 const playbookLogSuccess = Path.join(
     __dirname,
@@ -48,8 +49,12 @@ const createVarsFile = (file, vars) => {
 
 const execPlaybook = (playbookFile) => {
     const playbook = new Ansible.Playbook().playbook(playbookFile);
-    playbook.on('stdout', function(data) { console.log(data.toString()); });
-    playbook.on('stderr', function(data) { console.log(data.toString()); });
+    playbook.on('stdout', function (data) {
+        console.log(data.toString());
+    });
+    playbook.on('stderr', function (data) {
+        console.log(data.toString());
+    });
     const promise = playbook.exec();
 
     promise.then(
@@ -107,18 +112,35 @@ app.post('/deleteVM', (req, res) => {
     res.send('POST /removal');
 });
 
-app.get("/test", (req, res) => {
+app.get('/getInventory', (req, res) => {
+    console.log(`Request body: ${JSON.stringify(req.params)}`);
+
+    createVarsFile(varsFile, JSON.stringify(req.params));
+    execPlaybook(getInventoryPlaybook);
+
+    res.send('GET /getInventory');
+});
+
+/* TODO: finishing resetPassword request */
+app.get('/resetPassword', (req, res) => {
     console.log(`Request body: ${JSON.stringify(req.body)}`);
 
     createVarsFile(varsFile, JSON.stringify(req.body));
-    execPlaybook(getInventoryPlaybook);
+    execPlaybook(resetPasswordPlaybook);
 
-    res.send('POST /removal');
-});
+    res.send('GET /reset_password');
+ 
+})
+
+app.put('/vm/:id', (req, res) => {
+    console.log(``)
+})
 
 /* API */
-// const port = process.env.NODE_ENV === "" ? process.env.PORT || 80 : 3000;
-const port = 3000;
+const port = process.env.NODE_ENV === "" ? process.env.PORT || 80 : 3000;
 const server = app.listen(port, () => {
     console.log(`Server listening on port ${port}`);
 });
+
+
+// TODO Compartir máquinas con otro usuario
